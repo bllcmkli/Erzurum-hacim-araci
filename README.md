@@ -19,7 +19,7 @@ maks_kat_yuksekligi = 3.3
 maks_yogunluk_orani = 0.4  # yapı alanı / parsel alanı
 maks_tabana_yayilma_orani = 0.35
 
-if parsel_alan > 0 and yapilabilir_alan > 0:
+if parsel_alan > 100 and yapilabilir_alan > 6:
 
     st.subheader("📐 Önerilen Hacimsel Alternatifler")
 
